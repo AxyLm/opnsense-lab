@@ -1,0 +1,14 @@
+*.iso
+*.img
+*.qcow2
+
+vm/*
+images/*
+
+!**/.gitkeep
+
+*.internal_root_apikey.*
+.agents/skills/opnsense-admin/backups/
+.agents/skills/opnsense-admin/*.xml
+__pycache__/
+*.pyc

@@ -1,0 +1,35 @@
+vm_name      = "opnsense-install"
+https_port   = 10443
+http_port    = 10080
+portal_http_port  = 18080
+portal_https_port = 18443
+portal_login_port = 8000
+vnc_display  = 2
+
+lan_backend    = "vmnet-host"
+wan_backend    = "user"
+portal_backend = "vmnet-host"
+
+lan_network    = "192.168.60.0/24"
+lan_gateway_ip = "192.168.60.254"
+lan_dhcp_start = "192.168.60.10"
+lan_host_start = "192.168.60.2"
+lan_host_end   = "192.168.60.253"
+lan_subnet_mask = "255.255.255.0"
+lan_mac        = "52:54:00:22:34:56"
+
+wan_network    = "10.0.2.0/24"
+wan_gateway_ip = "10.0.2.2"
+wan_dhcp_start = "10.0.2.15"
+wan_host_start = "10.0.2.2"
+wan_host_end   = "10.0.2.253"
+wan_subnet_mask = "255.255.255.0"
+wan_mac        = "52:54:00:22:34:57"
+
+portal_network    = "192.168.70.0/24"
+portal_gateway_ip = "192.168.70.254"
+portal_dhcp_start = "192.168.70.10"
+portal_host_start = "192.168.70.2"
+portal_host_end   = "192.168.70.253"
+portal_subnet_mask = "255.255.255.0"
+portal_mac        = "52:54:00:22:34:58"
